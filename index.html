@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TandaStudy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <section class="section">
+        <div class="container">
+            <div class="info-register">
+                <div class="user-icon">
+                    <img class="icon" src="icons/user-icon.svg" alt="user">
+                </div>
+                <h2>Ваш профиль</h2>
+                <!-- <p>Войти в свой кабинет</p> -->
+                <div class="socials">
+                    <a href="#"><i class="fab fa-whatsapp fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-vk fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="form-register">
+                <div class="form-register_header">
+                    <h2 class="form-register_title">Зарегистрироваться</h2>
+                    <p class="form-register_text">Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+                </div>
+                <form action="#">
+                    <div class="form-box">
+                        <label>Имя</label>
+                        <input class="input" type="text" placeholder="Толеби" required>
+                    </div>
+                    <div class="form-box upload-box">
+                        <a class="upload-link" href="#">
+                            <img class="upload-icon" src="icons/camera.svg" alt="avatar-upload">
+                            <p class="upload-text">Загузить фотография</p>
+                        </a>
+                    </div>
+                    <div class="form-box">
+                        <label>Фамилия</label>
+                        <input class="input" type="text" placeholder="Жаксыбай" required>
+                    </div>
+                    <div class="form-box">
+                        <label>E-mail</label>
+                        <input class="input" type="email" placeholder="tolebizaksybaj@gmail.com" required>
+                    </div>
+                    <div class="form-box">
+                        <label>Страна</label>
+                        <input class="input" type="text" placeholder="Казахстан" required>
+                    </div>
+                    <div class="form-box">
+                        <label>Телефон</label>
+                        <input class="input" type="tel" placeholder="+7 708 171-25-88" required>
+                    </div>
+
+                    <button type="submit" class="btn cancel-btn">Отмена</button>
+                    <button type="submit" class="btn register-btn">Регистрация</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-calculator">
+        <div class="container container-calculator">
+            <div class="wrapper">
+                <div class="calculator-1">
+                    <div class="answers">
+                        <h2>2598</h2>
+                    </div>
+                    <div class="buttons">
+                        <div class="button">AC</div>
+                        <div class="button">+/-</div>
+                        <div class="button">%</div>
+                        <div class="button">/</div>
+
+                        <div class="button number">7</div>
+                        <div class="button number">8</div>
+                        <div class="button number">9</div>
+                        <div class="button">*</div>
+
+                        <div class="button number">4</div>
+                        <div class="button number">5</div>
+                        <div class="button number">6</div>
+                        <div class="button">-</div>
+
+                        <div class="button number">1</div>
+                        <div class="button number">2</div>
+                        <div class="button number">3</div>
+                        <div class="button">+</div>
+
+                        <div class="button bol-btn number">0</div>
+                        <div class="button number">,</div>
+                        <div class="button">=</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-cards">
+        <div class="container container-cards">
+            <div class="cards-wrapper">
+                <div class="card">
+                    <a class="packages__link">
+                        <img class="card-icon" src="icons/1.svg" alt="">
+                        <div class="packeges__box">
+                            <h2 class="packages__title">Восток-1</h2>
+                            <p class="packages__about">
+                                Для небольших сайтов
+                            </p>
+                        </div>
+                    </a>
+
+                    <div class="packages__item-inside">
+                        <div class="packages__price">
+                            <span class="price-text">118</span>
+                            <span class="price-period">руб/мес</span></span>
+                        </div>
+
+                        <ul class="packages__options">
+                            <li>5 Гб на NVMe диске</li>
+                            <li>5 сайтов
+                            </li>
+                        </ul>
+
+
+                        <ul class="packages__services">
+                            <li>помощь новичкам</li>
+                            <li>удобный файловый менеджер</li>
+                            <li>автоустановка популярных CMS</li>
+                        </ul>
+                    </div>
+
+                    <div class="packages__item-separator"></div>
+
+                    <div class="packages__item-inside">
+                        <ul class="packages__bonus">
+                            <li>бесплатный SSL-сертификат</li>
+                            <li class="bonus-domains-0">
+                                <span class="show-domain-price ">
+                                    178 руб за домен .RU или .РФ
+                                </span>
+                            </li>
+                        </ul>
+
+                        <div class="packages__order">
+                            <button class="btn-block">Заказать</button>
+                        </div>
+
+                        <p class="packages__test-period">Тестовый период 30 дней
+                            <br>без оплаты и ввода данных карты</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="packages__link">
+                        <img class="card-icon" src="icons/2.svg" alt="">
+                        <div class="packeges__box">
+                            <h2 class="packages__title">Восток-2</h2>
+                            <p class="packages__about">
+                                Для сайтов посерьезнее
+                            </p>
+                        </div>
+                    </a>
+
+                    <div class="packages__item-inside">
+                        <div class="packages__price">
+                            <span class="price-text">298</span>
+                            <span class="price-period">руб/мес</span></span>
+                        </div>
+
+                        <ul class="packages__options">
+                            <li>15 Гб на NVMe диске</li>
+                            <li>20 сайтов
+                            </li>
+                        </ul>
+
+
+                        <ul class="packages__services">
+                            <li>любое число почтовых ящиков</li>
+                            <li>почта с антиспамом</li>
+                            <li>собственная база знаний</li>
+                        </ul>
+                    </div>
+
+                    <div class="packages__item-separator"></div>
+
+                    <div class="packages__item-inside">
+                        <ul class="packages__bonus">
+                            <li>бесплатный SSL-сертификат</li>
+                            <li class="bonus-domains-0">
+                                <span class="show-domain-price ">
+                                    1 домен .RU или .РФ в подарок
+                                </span>
+                            </li>
+                        </ul>
+
+                        <div class="packages__order">
+                            <button class="btn-block">Заказать</button>
+                        </div>
+
+                        <p class="packages__test-period">Тестовый период 30 дней
+                            <br>без оплаты и ввода данных карты</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <a class="packages__link">
+                        <img class="card-icon" src="icons/3.svg" alt="">
+                        <div class="packeges__box">
+                            <h2 class="packages__title">Восток-3</h2>
+                            <p class="packages__about">
+                                Для посещаемых  сайтов, <br>форумов и интернет-магазинов
+                            </p>
+                        </div>
+                    </a>
+
+                    <div class="packages__item-inside item__3">
+                        <div class="packages__price">
+                            <span class="price-text">498</span>
+                                   <span class="price-period">руб/мес</span></span>
+                        </div>
+
+                        <ul class="packages__options">
+                            <li>20 Гб на NVMe диске</li>
+                            <li>∞ сайтов
+                            </li>
+                        </ul>
+
+
+                        <ul class="packages__services">
+                            <li>расширенный веб-сервер</li>
+                            <li>акселераторы PHP</li>
+                            <li>поддержка xDebug</li>
+                        </ul>
+                    </div>
+
+                    <div class="packages__item-separator"></div>
+
+                    <div class="packages__item-inside">
+                        <ul class="packages__bonus">
+                            <li>бесплатный SSL-сертификат</li>
+                            <li class="bonus-domains-0">
+                                <span class="show-domain-price ">
+                                    2 домен .RU или .РФ в подарок
+                                </span>
+                            </li>
+                        </ul>
+
+                        <div class="packages__order">
+                            <button class="btn-block">Заказать</button>
+                        </div>
+
+                        <p class="packages__test-period">Тестовый период 30 дней
+                            <br>без оплаты и ввода данных карты</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
